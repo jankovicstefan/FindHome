@@ -1,0 +1,26 @@
+#map {
+    height: 91%;
+    width: 100%;
+}
+
+button.button.button-full {
+    width:100%; 
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#icSvg {
+    background-color: #35807F; 
+}
+
+#svg {
+    background-color: #35807F; 
+    margin: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#Layer_4 {
+    margin-left: 30px;
+    
+}

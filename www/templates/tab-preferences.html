@@ -1,0 +1,32 @@
+<ion-view view-title="Preferences">
+  <ion-content scroll="false">
+    <!--<div class="list">
+      <label class="item item-input item-select">
+      <div class="input-label">
+      I want to:
+     </div>
+       <select name="selectType" id="selectType" ng-model="selectType">
+         <option selected> Rent </option>
+         <option id="buy"  value="buy"> Buy </option>
+       </select>
+      </label>
+      You selected {{typeData.selectedOption}}
+      III {{proba}}-->
+      <div class="list">
+        <h4>Type</h4>
+        <ion-list>
+          <ion-radio ng-model="preferences.type" value="Rent">Rent</ion-radio>
+          <ion-radio ng-model="preferences.type" value="Sale">Buy</ion-radio>
+        </ion-list>  
+        <button class="button button-outline button-block button-positive" type="submit" ng-click="updatePrefs(preferences)"> Save </button>
+      </div>
+    </ion-item>
+  </ion-content>
+</ion-view>
+
+
+<!--<ion-item ng-repeat="cord in cords" class="wrap-list-item">-->
+     <!-- {{cords.latitude}}
+      {{cords.longitude}} -->
+       <!--{{cord.lon}}
+       {{cord.lat}}-->
